@@ -86,8 +86,8 @@
 
 
 
-    #  - name: initializing  kubeadm service
-    #  shell: "kubeadm init --pod-network-cidr=10.244.0.0/16  --ignore-preflight-errors=NumCPU --ignore-preflight-errors=Mem"
+  - name: initializing  kubeadm service
+    shell: "kubeadm init --pod-network-cidr=10.244.0.0/16  --ignore-preflight-errors=NumCPU --ignore-preflight-errors=Mem"
 
 
   - name: Creating the directory fo config file
